@@ -1,11 +1,11 @@
-# Sofia v3
+# Sofia v4.5
 
-Sofia is an AI assistant built around continuity, follow-ups, and longer-running conversations.
+Sofia is a web-based AI assistant focused on conversation continuity, useful follow-ups, and longer-running work.
 
 Website: https://fragsofia.de  
 Open chat: https://fragsofia.de/chat
 
-## What Sofia is meant to do
+## What Sofia does
 
 Many assistants can answer once. Sofia is built for what happens after that.
 
@@ -13,28 +13,36 @@ The focus is on:
 - natural follow-up questions
 - returning to older topics without starting over
 - remembering relevant user information
-- holding the working thread in longer conversations
+- keeping the working thread across longer conversations
 - staying useful beyond the first reply
+
+## Free and Premium
+
+Sofia is free to use, with optional premium features for users who need more from the product.
 
 ## Live product
 
-Sofia v3 is live on the public website and is being refined continuously in real usage.
+Sofia v4.5 is live on the public website and continues to be refined through real-world use and community feedback.
 
-The open chat is there to test whether Sofia can actually continue a conversation, not just produce a good first message.
+## Public product principles
 
-## Current focus
-
-Right now the work centers on:
-- stronger continuity across conversations
-- more reliable follow-up handling
-- better long-run stability
-- clearer product behavior in everyday use
+Sofia is designed to keep remembered context separate from verified information. When current, authorized information is available, it should take precedence over older context. If freshness or certainty cannot be established, Sofia should be transparent about that boundary.
 
 ## Why this repository exists
 
-This repository is the public project home of Sofia.
+This repository is the public project home of Sofia. It gives an overview of the product, its direction, and its public development path without exposing private operating details.
 
-It gives an overview of the idea, direction, and public product path without exposing the internal operating details behind the live system.
+## Source and privacy
+
+Sofia is proprietary software and is not open source. This repository intentionally contains public product information only. Private source code and internal engineering materials remain private.
+
+## Changelog
+
+### V4.5
+
+- improved continuity and follow-up handling
+- strengthened behavior around remembered context and current information
+- incorporated community feedback to close a product gap
 
 ## Author
 
