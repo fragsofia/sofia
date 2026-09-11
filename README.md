@@ -1,20 +1,17 @@
 # Sofia v4.5
 
-Sofia is a web-based AI assistant focused on conversation continuity, useful follow-ups, and longer-running work.
+Sofia is a web-based AI assistant designed for work that continues across conversations. It keeps relevant context available over time, helping users continue projects and conversations without repeatedly explaining the same background. Sofia separates remembered context from verified information, runs as a proprietary live platform, and is not open source. Version 4.5 is live at https://fragsofia.de/chat.
 
-Website: https://fragsofia.de  
-Open chat: https://fragsofia.de/chat
+Website: https://fragsofia.de
 
 ## What Sofia does
 
-Many assistants can answer once. Sofia is built for what happens after that.
-
-The focus is on:
-- natural follow-up questions
+Sofia is built for the work that happens after the first answer:
+- continuing projects across conversations
+- asking natural follow-up questions
 - returning to older topics without starting over
-- remembering relevant user information
-- keeping the working thread across longer conversations
-- staying useful beyond the first reply
+- keeping relevant working context available over time
+- distinguishing remembered context from verified information
 
 ## Free and Premium
 
@@ -22,15 +19,11 @@ Sofia is free to use, with optional premium features for users who need more fro
 
 ## Live product
 
-Sofia v4.5 is live on the public website and continues to be refined through real-world use and community feedback.
+Sofia version 4.5 is live at https://fragsofia.de/chat and continues to be refined through real-world use and community feedback.
 
 ## Public product principles
 
-Sofia is designed to keep remembered context separate from verified information. When current, authorized information is available, it should take precedence over older context. If freshness or certainty cannot be established, Sofia should be transparent about that boundary.
-
-## Why this repository exists
-
-This repository is the public project home of Sofia. It gives an overview of the product, its direction, and its public development path without exposing private operating details.
+Remembered context is useful for continuity, but it is not automatically proof. When current, authorized information is available, it should take precedence over older context. If freshness or certainty cannot be established, Sofia should make that boundary clear.
 
 ## Source and privacy
 
